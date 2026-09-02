@@ -1,0 +1,402 @@
+/* ==========================
+   Google Font Import
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+/* ==========================
+   Global Reset
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+
+    background: #F9F7F3;
+
+    color: #444;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+}
+
+
+
+/* ==========================
+   Main Container
+========================== */
+
+.container {
+
+    width: 100%;
+
+    max-width: 550px;
+
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 25px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.08);
+
+    text-align: center;
+
+}
+
+
+
+/* ==========================
+   Headings
+========================== */
+
+h1 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 55px;
+
+    color: #C8A96A;
+
+    margin-bottom: 5px;
+
+}
+
+
+h2 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 38px;
+
+    color: #9EB4C7;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+p {
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* ==========================
+   Input
+========================== */
+
+input {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 20px;
+
+    border-radius: 12px;
+
+    border: 1px solid #ddd;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+
+
+input:focus {
+
+    border-color: #9EB4C7;
+
+    box-shadow:
+    0 0 8px rgba(158,180,199,.4);
+
+}
+
+
+
+/* ==========================
+   Buttons
+========================== */
+
+button {
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 50px;
+
+    padding: 14px 30px;
+
+    margin-top: 15px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+
+
+button:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+
+/* Search Button */
+
+button:first-of-type {
+
+    width: 100%;
+
+    background: #9EB4C7;
+
+    color: white;
+
+}
+
+
+
+/* RSVP Buttons */
+
+.guest-card button {
+
+    width: 100%;
+
+}
+
+
+.guest-card button:first-of-type {
+
+    background: #C8A96A;
+
+    color:white;
+
+}
+
+
+.guest-card button:last-child {
+
+    background:#9EB4C7;
+
+    color:white;
+
+}
+
+
+
+/* ==========================
+   Result Card
+========================== */
+
+#result {
+
+    margin-top: 30px;
+
+}
+
+
+
+.guest-card {
+
+    background:#F9F7F3;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:
+
+    1px solid rgba(200,169,106,.3);
+
+}
+
+
+
+.guest-card h3 {
+
+    font-family:
+    'Cormorant Garamond',
+    serif;
+
+    font-size:32px;
+
+    color:#C8A96A;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.guest-card strong {
+
+    color:#9EB4C7;
+
+}
+
+
+
+/* ==========================
+   Notice Section
+========================== */
+
+.notice {
+
+    margin-top:35px;
+
+    font-size:14px;
+
+    color:#666;
+
+}
+
+
+
+.notice hr {
+
+    border:none;
+
+    height:1px;
+
+    background:#ddd;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.notice strong {
+
+    color:#C8A96A;
+
+}
+
+
+
+.notice a {
+
+    color:#9EB4C7;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+.notice a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+/* ==========================
+   Wedding Details Button
+========================== */
+
+.guest-card a {
+
+    text-decoration:none;
+
+}
+
+
+.guest-card a button {
+
+    background:#C8A96A;
+
+    color:white;
+
+    margin-top:25px;
+
+}
+
+
+
+/* ==========================
+   Mobile Responsive
+========================== */
+
+@media(max-width:600px){
+
+
+body {
+
+    padding:15px;
+
+}
+
+
+
+.container {
+
+    padding:30px 20px;
+
+}
+
+
+
+h1 {
+
+    font-size:42px;
+
+}
+
+
+
+h2 {
+
+    font-size:32px;
+
+}
+
+
+
+.guest-card {
+
+    padding:20px;
+
+}
+
+
+
+}
