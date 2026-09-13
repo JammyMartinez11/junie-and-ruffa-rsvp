@@ -64,7 +64,11 @@ function searchGuest() {
 
     fetch(scriptURL, {
 
-        method: "POST",
+    method: "POST",
+
+    headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+    },
 
         body: JSON.stringify({
 
@@ -354,7 +358,11 @@ function rsvp(answer, guestName) {
 
     fetch(scriptURL, {
 
-        method: "POST",
+    method: "POST",
+
+    headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+    },
 
         body: JSON.stringify({
 
